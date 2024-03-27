@@ -15,27 +15,55 @@ const Sliders = () => {
         autoplay: true,
         autoplaySpeed: 1000,
         slidesToShow: 4,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 1280,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+      
     };
+
 
     return (
         <div className='max-w-containerx mx-auto'>
             <Slider {...settings}>
-                <div>
-                    <img src={sliderone} alt="" />
+                <div className=''>
+                    <img className="w-full object-cover" src={sliderone} alt="" />
                 </div>
-                <div>
-                    <img src={slidertwo} alt="" />
+                <div className=''> 
+                    <img className="w-full object-cover" src={slidertwo} alt="" />
                 </div>
-                <div>
-                    <img src={sliderthree} alt="" />
+                <div className=''>
+                    <img className="w-full object-cover" src={sliderthree} alt="" />
                 </div>
-                <div>
-                    <img src={sliderfour} alt="" />
+                <div className=''>
+                    <img className="w- object-cover" src={sliderfour} alt="" />
                 </div>
             </Slider>
         </div>
     )
-}
+} 
 
 export default Sliders

@@ -29,11 +29,11 @@ const Navbar = () => {
                         <div className='flex items-center gap-x-6 lg:gap-x-[72px]'>
                             <div>
                                 <ul className='flex gap-x-6 lg:gap-x-12'>
-                                    <li><a href="" className='font-pops font-semibold text-[16px] leading-6 text-white pt-[10px]'>Home</a></li>
-                                    <li><a href="" className='font-pops font-semibold text-[16px] leading-6 text-white pt-[10px]'>About</a></li>
-                                    <li><a href="" className='font-pops font-semibold text-[16px] leading-6 text-white pt-[10px]'>Services</a></li>
-                                    <li><a href="" className='font-pops font-semibold text-[16px] leading-6 text-white pt-[10px]'>Gallery</a></li>
-                                    <li><a href="" className='font-pops font-semibold text-[16px] leading-6 text-white pt-[10px]'>Blog</a></li>
+                                    <li><a href="" className='font-pops font-semibold text-base text-white pt-[10px]'>Home</a></li>
+                                    <li><a href="" className='font-pops font-semibold text-base text-white pt-[10px]'>About</a></li>
+                                    <li><a href="" className='font-pops font-semibold text-base text-white pt-[10px]'>Services</a></li>
+                                    <li><a href="" className='font-pops font-semibold text-base text-white pt-[10px]'>Gallery</a></li>
+                                    <li><a href="" className='font-pops font-semibold text-base text-white pt-[10px]'>Blog</a></li>
                                 </ul>
                             </div>
                             <div>
@@ -48,15 +48,15 @@ const Navbar = () => {
                     <div className='flex flex-col gap-y-6 '>
                         <div>
                             <ul className='flex flex-col gap-y-6'>
-                                <li><a href="" className='font-pops font-semibold text-[16px] leading-6 text-white pt-[10px]'>Home</a></li>
-                                <li><a href="" className='font-pops font-semibold text-[16px] leading-6 text-white pt-[10px]'>About</a></li>
-                                <li><a href="" className='font-pops font-semibold text-[16px] leading-6 text-white pt-[10px]'>Services</a></li>
-                                <li><a href="" className='font-pops font-semibold text-[16px] leading-6 text-white pt-[10px]'>Gallery</a></li>
-                                <li><a href="" className='font-pops font-semibold text-[16px] leading-6 text-white mr-[72px] pt-[10px]'>Blog</a></li>
+                                <li><a href="" className='font-pops font-semibold text-base text-white pt-[10px]'>Home</a></li>
+                                <li><a href="" className='font-pops font-semibold text-base text-white pt-[10px]'>About</a></li>
+                                <li><a href="" className='font-pops font-semibold text-base text-white pt-[10px]'>Services</a></li>
+                                <li><a href="" className='font-pops font-semibold text-base text-white pt-[10px]'>Gallery</a></li>
+                                <li><a href="" className='font-pops font-semibold text-base text-white mr-[72px] pt-[10px]'>Blog</a></li>
                             </ul>
                         </div>
                         <div>
-                            <button className='bg-transparent font-pops border-[2px] border-white font-semibold text-[16px] leading-6 text-white py-[14px] px-8'>CONTACT</button>
+                            <button className='bg-transparent font-pops border-[2px] border-white font-semibold text-[16px] leading-6 text-white py-[14px] px-8 hover:bg-green-500'>CONTACT</button>
                         </div>
                     </div>
                 </div>

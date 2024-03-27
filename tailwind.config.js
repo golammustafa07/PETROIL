@@ -19,7 +19,7 @@ export default {
       },
       backgroundImage : {
         'banner' : "url(../src/assets/banner.png)"
-      }
+      },
     },
   },
   plugins: [],
