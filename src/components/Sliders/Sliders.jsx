@@ -59,7 +59,7 @@ const Sliders = () => {
                     <img className="w-full object-cover" src={sliderthree} alt="" />
                 </div>
                 <div className=''>
-                    <img className="w- object-cover" src={sliderfour} alt="" />
+                    <img className="w-full object-cover" src={sliderfour} alt="" />
                 </div>
             </Slider>
         </div>
