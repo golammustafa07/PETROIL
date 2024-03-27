@@ -1,12 +1,11 @@
 import React from 'react'
-import Container from '../Layout/Container'
+
 
 const Services = () => {
   return (
     <div>
-        <Container>
-            
-        </Container>
+        <div className='max-w-containerx'>
+        </div>
     </div>
   )
 }

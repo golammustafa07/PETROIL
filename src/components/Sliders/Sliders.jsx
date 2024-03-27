@@ -27,11 +27,10 @@ const Sliders = () => {
               }
             },
             {
-              breakpoint: 1024,
+              breakpoint: 1023,
               settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
-                initialSlide: 2
               }
             },
             {
@@ -50,16 +49,16 @@ const Sliders = () => {
         <div className='max-w-containerx mx-auto'>
             <Slider {...settings}>
                 <div className=''>
-                    <img className="w-full object-cover" src={sliderone} alt="" />
+                    <img className="w-full md:w-auto object-cover" src={sliderone} alt="" />
                 </div>
                 <div className=''> 
-                    <img className="w-full object-cover" src={slidertwo} alt="" />
+                    <img className="w-full md:w-auto object-cover" src={slidertwo} alt="" />
                 </div>
                 <div className=''>
-                    <img className="w-full object-cover" src={sliderthree} alt="" />
+                    <img className="w-full md:w-auto object-cover" src={sliderthree} alt="" />
                 </div>
                 <div className=''>
-                    <img className="w-full object-cover" src={sliderfour} alt="" />
+                    <img className="w-full md:w-auto object-cover" src={sliderfour} alt="" />
                 </div>
             </Slider>
         </div>
