@@ -2,67 +2,75 @@ import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import sliderone from '../../assets/sliderone.png'
-import slidertwo from '../../assets/slidertwo.png'
-import sliderthree from '../../assets/sliderthree.png'
-import sliderfour from '../../assets/sliderfour.png'
+import IMGONE from '../../assets/IMGONE.jpg'
+import IMGTWO from '../../assets/IMGTWO.jpg'
+import IMGTHREE from '../../assets/IMGTHREE.jpg'
+import IMGFOUR from '../../assets/IMGFOUR.jpg'
+
+
 
 const Sliders = () => {
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        autoplay: true,
-        autoplaySpeed: 1000,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        responsive: [
-            {
-              breakpoint: 1280,
-              settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
-              }
-            },
-            {
-              breakpoint: 1023,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-              }
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
-            }
-          ]
-      
-    };
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    
+    responsive: [
+        {
+          breakpoint: 1280,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+          }
+        },
+        {
+          breakpoint: 1023,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          }
+        },
+        {
+          breakpoint: 769,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+      ]
+  };
 
 
-    return (
-        <div className='max-w-containerx mx-auto'>
-            <Slider {...settings}>
-                <div className=''>
-                    <img className="w-full md:w-auto object-cover" src={sliderone} alt="" />
-                </div>
-                <div className=''> 
-                    <img className="w-full md:w-auto object-cover" src={slidertwo} alt="" />
-                </div>
-                <div className=''>
-                    <img className="w-full md:w-auto object-cover" src={sliderthree} alt="" />
-                </div>
-                <div className=''>
-                    <img className="w-full md:w-auto object-cover" src={sliderfour} alt="" />
-                </div>
-            </Slider>
+  return (
+    <div className='max-w-containerx mx-auto'>
+      <Slider className='' {...settings}>
+        <div className=''>
+          <img className="w-auto xmd:w-[380px] xlmd:w-[400px] lg:w-[330px] xl:w-[305px] xxl:w-[458px]" src={IMGONE} alt="" />
         </div>
-    )
-} 
+        <div className=''>
+          <img className="w-auto  xmd:w-[380px] xlmd:w-[400px] lg:w-[330px] xl:w-[305px] xxl:w-[458px]" src={IMGTWO} alt="" />
+        </div>
+        <div className=''>
+          <img className="w-auto xmd:w-[380px] xlmd:w-[400px] lg:w-[330px] xl:w-[305px] xxl:w-[458px]" src={IMGTHREE} alt="" />
+        </div>
+        <div className=''>
+          <img className="w-auto xmd:w-[380px] xlmd:w-[400px] lg:w-[330px] xl:w-[305px] xxl:w-[458px]" src={IMGFOUR} alt="" />
+        </div>
+      </Slider>
+    </div>
+  )
+}
 
 export default Sliders

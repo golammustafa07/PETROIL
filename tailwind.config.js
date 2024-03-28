@@ -18,8 +18,13 @@ export default {
         'pops' : ['Poppins','Sans-Serif']
       },
       backgroundImage : {
-        'banner' : "url(../src/assets/banner.png)"
+        'banner' : "url(../src/assets/banner.png)",
+        'servicesone' : "url(../src/assets/servicesone.png)"
       },
+      screens : {
+        'xmd' : '769px',
+        'xxl' : '1288px'
+      }
     },
   },
   plugins: [],
