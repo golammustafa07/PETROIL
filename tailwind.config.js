@@ -15,7 +15,8 @@ export default {
         'overlay' : 'rgba(0, 0, 0, 0.60)'
       },
       fontFamily : {
-        'pops' : ['Poppins','Sans-Serif']
+        'pops' : ['Poppins','Sans-Serif'],
+        'robo' : ['Roboto','Sans-Serif']
       },
       backgroundImage : {
         'banner' : "url(../src/assets/banner.png)",

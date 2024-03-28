@@ -1,6 +1,7 @@
 import Banner from "./components/Banner/Banner"
 import Company from "./components/Company/Company"
 import Header from "./components/Header/Header"
+import Logos from "./components/Logo/Logos"
 import Navbar from "./components/Navbar/Navbar"
 import Services from "./components/Services/Services"
 import Sliders from "./components/Sliders/Sliders"
@@ -18,6 +19,7 @@ function App() {
     <Sliders/>
     <Services/>
     <Company/>
+    <Logos/>
     </>
   )
 }
