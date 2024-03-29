@@ -19,7 +19,7 @@ const Services = () => {
 
             <div className='lg:w-1/2'>
               <div className='relative'>
-                <img src={servicesone} alt="" />
+                <img className='' src={servicesone} alt="" />
                 <div className='w-full flex justify-center items-center h-full absolute top-0 bg-overlay'>
                   <div className='text-center lg:text-left py-[50px] md:py-0 px-3 lg:px-0'>
                     <h3 className='font-pops font-bold text-2xl md:text-3xl lg:text-2xl 2xl:text-[36px] text-white xl:leading-[54px]'>Modern natural oil and gas refineries.</h3>
@@ -32,7 +32,7 @@ const Services = () => {
           <div className='flex flex-wrap gap-y-8'>
             <div className='lg:w-1/2'>
               <div className='relative'>
-                <img src={servicestwo} alt="" />
+                <img className='' src={servicestwo} alt="" />
                 <div className='w-full flex justify-center items-center h-full absolute top-0 bg-overlay'>
                   <div className='text-center lg:text-left py-[50px] md:py-0'>
                     <h3 className='font-pops font-bold text-2xl md:text-3xl lg:text-2xl 2xl:text-[36px] text-white xl:leading-[54px]'>Supply of national industries.</h3>
@@ -44,7 +44,7 @@ const Services = () => {
 
             <div className='lg:w-1/2'>
               <div className='relative'>
-                <img className='lg:h-[225px] xl:h-[286px] 2xl:h-[410px]' src={servicesthree} alt="" />
+                <img className='lg:h-[228px] xl:h-[286px] 2xl:h-[410px]' src={servicesthree} alt="" />
                 <div className='w-full flex justify-center items-center h-full absolute top-0 bg-overlay'>
                   <div className='text-center lg:text-left py-[50px] md:py-0'>
                     <h3 className='font-pops font-bold text-2xl md:text-3xl lg:text-2xl 2xl:text-[36px] text-white xl:leading-[54px]'>National fuel distribution and supply.</h3>

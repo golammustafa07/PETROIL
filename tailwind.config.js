@@ -16,7 +16,8 @@ export default {
       },
       fontFamily : {
         'pops' : ['Poppins','Sans-Serif'],
-        'robo' : ['Roboto','Sans-Serif']
+        'robo' : ['Roboto','Sans-Serif'],
+        'sans' : ['Open Sans','Sans-Serif']
       },
       backgroundImage : {
         'banner' : "url(../src/assets/banner.png)",
