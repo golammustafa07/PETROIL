@@ -57,16 +57,16 @@ const Sliders = () => {
     <div className='max-w-containerx mx-auto'>
       <Slider className='' {...settings}>
         <div className=''>
-          <img className="w-auto xmd:w-[380px] xlmd:w-[400px] lg:w-[330px] xl:w-[305px] xxl:w-[458px]" src={IMGONE} alt="" />
+          <img className="w-auto xmd:w-[380px] xlmd:w-[400px] lg:w-[330px] xl:w-[305px] xxl:w-[465px]" src={IMGONE} alt="" />
         </div>
         <div className=''>
-          <img className="w-auto  xmd:w-[380px] xlmd:w-[400px] lg:w-[330px] xl:w-[305px] xxl:w-[458px]" src={IMGTWO} alt="" />
+          <img className="w-auto  xmd:w-[380px] xlmd:w-[400px] lg:w-[330px] xl:w-[305px] xxl:w-[465px]" src={IMGTWO} alt="" />
         </div>
         <div className=''>
-          <img className="w-auto xmd:w-[380px] xlmd:w-[400px] lg:w-[330px] xl:w-[305px] xxl:w-[458px]" src={IMGTHREE} alt="" />
+          <img className="w-auto xmd:w-[380px] xlmd:w-[400px] lg:w-[330px] xl:w-[305px] xxl:w-[465px]" src={IMGTHREE} alt="" />
         </div>
         <div className=''>
-          <img className="w-auto xmd:w-[380px] xlmd:w-[400px] lg:w-[330px] xl:w-[305px] xxl:w-[458px]" src={IMGFOUR} alt="" />
+          <img className="w-auto xmd:w-[380px] xlmd:w-[400px] lg:w-[330px] xl:w-[305px] xxl:w-[465px]" src={IMGFOUR} alt="" />
         </div>
       </Slider>
     </div>

@@ -29,6 +29,7 @@ const Services = () => {
               </div>
             </div>
           </div>
+          
           <div className='flex flex-wrap gap-y-8'>
             <div className='lg:w-1/2'>
               <div className='relative'>
