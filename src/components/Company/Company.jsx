@@ -4,7 +4,7 @@ import company from '../../assets/company.png'
 
 const Company = () => {
     return (
-        <div>
+        <div className='bg-[#F0F0F0]'>
             <Container className='py-[50px] xl:py-[136px]'>
                 <div className='flex flex-col lg:flex-row gap-y-2.5'>
                     <div className='bg-primary py-[50px] px-[50px] lg:py-[100px] lg:px-[75.5px] text-center lg:text-left'>

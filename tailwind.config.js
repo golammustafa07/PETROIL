@@ -21,12 +21,15 @@ export default {
       },
       backgroundImage : {
         'banner' : "url(../src/assets/banner.png)",
-        'servicesone' : "url(../src/assets/servicesone.png)"
+        'servicesone' : "url(../src/assets/servicesone.png)",
+        'blogone' : "url(../src/assets/blogone.png)",
+        'blogtwo' : "url(../src/assets/blogtwo.png)",
+        'blogthree' : "url(../src/assets/blogthree.png)",
       },
       screens : {
         'xmd' : '769px',
         'xxl' : '1288px'
-      }
+      },
     },
   },
   plugins: [],
