@@ -15,7 +15,7 @@ const Blog = () => {
                         <div className='w-full flex justify-center items-center h-full absolute top-0 bg-overlay'>
                             <div className=''>
                                 <h3 className='font-pops font-bold lg:w-[249px] w-auto text-3xl md:text-[24px] leading-9 text-white'>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</h3>
-                                <button className='font-pops font-semibold text-[12px] leading-[18px] bg-[#ACACAA] py-2.5 px-[22px] text-white mt-[50px]'>Read More</button>
+                                <button className='font-pops font-semibold text-[12px] leading-[18px] bg-[#ACACAA] py-2.5 px-[22px] hover:bg-white hover:text-[#ACACAA] text-white mt-[50px]'>Read More</button>
                             </div>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ const Blog = () => {
                         <div className='w-full flex justify-center items-center h-full absolute top-0 bg-overlay'>
                             <div className=''>
                                 <h3 className='font-pops font-bold lg:w-[249px] w-auto text-3xl md:text-[24px] leading-9 text-white'>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</h3>
-                                <button className='font-pops font-semibold text-[12px] leading-[18px] bg-[#ACACAA] py-2.5 px-[22px] text-white mt-[50px]'>Read More</button>
+                                <button className='font-pops font-semibold text-[12px] leading-[18px] bg-[#ACACAA] py-2.5 px-[22px] hover:bg-white hover:text-[#ACACAA] text-white mt-[50px]'>Read More</button>
                             </div>
                         </div>
                     </div>
@@ -33,14 +33,14 @@ const Blog = () => {
                         <div className='w-full flex justify-center items-center h-full absolute top-0 bg-overlay'>
                             <div className=''>
                                 <h3 className='font-pops font-bold lg:w-[249px] w-auto text-3xl md:text-[24px] leading-9 text-white'>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</h3>
-                                <button className='font-pops font-semibold text-[12px] leading-[18px] bg-[#ACACAA] py-2.5 px-[22px] text-white mt-[50px]'>Read More</button>
+                                <button className='font-pops font-semibold text-[12px] leading-[18px] bg-[#ACACAA] py-2.5 px-[22px] hover:bg-white hover:text-[#ACACAA] text-white mt-[50px]'>Read More</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className='flex md:justify-end justify-center py-2.5 lg:py-7 cursor-pointer'>
+                <div className='flex md:justify-end justify-center items-center py-2.5 lg:py-7 cursor-pointer'>
                     <p className='font-pops font-bold text-base'>MORE FROM THE BLOG</p>
-                    <RiArrowDropRightLine className='text-2xl'/>
+                    <RiArrowDropRightLine className='text-3xl'/>
                 </div>
             </Container>
         </div>
